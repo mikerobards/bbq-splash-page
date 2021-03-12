@@ -22,6 +22,7 @@ h1 + p {
 
 h2 {
     font-size: 1.3125rem;
+    margin: 0;
 }
 
 h2 + p {
@@ -29,6 +30,7 @@ h2 + p {
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .top-text {
@@ -55,9 +57,14 @@ strong {
     background-position: center;
     background-size: 500px;
     background-color: #404040;
-    padding: 0 0.25em 1em;
+    padding: 0 0.5em 2em;
     display: flex;
     flex-direction: column;
 }
 
+/* main-content section */
 
+
+.main-content {
+    padding: 2em 1em;
+}
