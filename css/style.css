@@ -9,12 +9,15 @@ body {
 h1 {
     font-size: 2.25rem;
     font-weight: 300;
+    color: #fff;
+    margin: 2em 0;
 }
 
 h1 + p {
     color: #F18119;
     font-weight: 900;
     font-size: 1.3125rem;
+    margin: 0;
 }
 
 h2 {
@@ -33,6 +36,7 @@ h2 + p {
     font-weight: 900;
     color: #F18119;
     text-transform: uppercase;
+    order: -1;
 }
 
 .fine-print {
@@ -52,6 +56,8 @@ strong {
     background-size: 500px;
     background-color: #404040;
     padding: 0 0.25em 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 
