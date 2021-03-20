@@ -81,7 +81,18 @@ strong {
     margin-right: auto;
 }
 
+/* form */
 
+.email-collector {
+    border: 3px #F18119 solid;
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
 
 
 /* media queries */
