@@ -84,7 +84,6 @@ strong {
 /* form */
 
 .email-collector {
-    border: 3px #F18119 solid;
     width: 80%;
     max-width: 300px;
 }
@@ -92,6 +91,16 @@ strong {
 input,
 .btn {
     width: 100%;
+    border-radius: 5px;
+}
+
+input {
+  font-family: inherit;
+  text-align: inherit;
+  margin-bottom: .75em;
+  padding: .25em;
+  border: 1px solid #404040;
+  border-radius: 5px;
 }
 
 
