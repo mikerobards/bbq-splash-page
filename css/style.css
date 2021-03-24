@@ -43,6 +43,10 @@ h2 + p {
   color: #f18119;
   text-transform: uppercase;
   order: -1;
+  border-top: 5px solid #f18119;
+  margin: 0;
+  padding-top: 2px;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 
 .fine-print {
@@ -61,6 +65,7 @@ strong {
   background-position: center;
   background-size: cover;
   background-color: #404040;
+  background-blend-mode: overlay;
   padding: 0 0.5em 2em;
   display: flex;
   flex-direction: column;
@@ -100,6 +105,13 @@ input {
   margin-bottom: .75em;
   padding: .25em;
   border: 1px solid #404040;
+  transform: scale(1);
+  transition: transform 250ms;
+
+}
+
+input:focus {
+  transform: scale(1.1);
 }
 
 .btn {
